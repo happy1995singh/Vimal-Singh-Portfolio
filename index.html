@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Vimal Singh</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one" style="color: rgb(20, 90, 202)">Hello,</div>
+          <div class="typeJsWrapper">
+            <div class="container">
+              <h1
+                class="typeJsText"
+                data-typetext="I'm Digital Marketer & Graphics Designer"
+              ></h1>
+            </div>
+          </div>
+
+          <!-- <div class="text-three">UI/UX Designer</div> -->
+          <div class="text-four" style="color: rgb(20, 90, 202)">
+            From India
+          </div>
+        </div>
+        <div class="button">
+          <button onclick="openGmail()">Hire Me</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="./images/About Me.jpeg" alt="No image" />
+          </div>
+          <div class="right">
+            <div class="topic">
+              Digital marketing & Graphics designing is my passion
+            </div>
+            <p>
+              I am passionate about digital marketing and graphic design,
+              combining creativity and strategy to elevate brands. I create
+              engaging visuals and implement effective marketing campaigns that
+              drive results and connect with audiences.
+            </p>
+            <div class="button" onclick="downloadCV()">
+              <button>Download CV</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Projects Section Start -->
+    <section class="projects" id="projects">
+      <div class="content">
+        <div class="title"><span>My Projects</span></div>
+        <div class="projects-details">
+          <div class="project-box">
+            <div class="video1">
+              <video controls width="100%" height="100%" controls>
+                <source src="./images/Graphic Video.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="project-description">
+              <h3>Project 1: Introduction Video</h3>
+              <p>
+                My Journey as a Graphic Designer Through Few Graphic Projects Of
+                Images.
+              </p>
+              <ul></ul>
+            </div>
+          </div>
+          <div class="project-box">
+            <div class="project-video">
+              <video width="100%" height="100%" controls>
+                <source
+                  src="./images/Website Video.mov"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+            <div class="project-description">
+              <h3>Project 2: Elitemart</h3>
+              <p>
+                Developed a dynamic e-commerce website using HTML, CSS, and
+                featuring a responsive design and user-friendly interface to
+                enhance the online shopping experience.
+              </p>
+              <ul>
+                <li><strong>Technologies Used:</strong> HTML , CSS</li>
+                <li><strong>Duration:</strong> 2 weeks</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- My Projects Section Start -->
+
+    <!-- My Skill Section Start -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Skills Reflects My Knowledge</div>
+            <p>Canva, Photoshop,Illustrator,Html&Css!</p>
+            <div class="experience">
+              <div class="num"></div>
+              <div class="exp">
+                <br />• New to the Field, Excited to Make an Impact as an
+                Intern!
+              </div>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">Canva</div>
+              <div class="per">80%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Photoshop</div>
+              <div class="per">75%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Illustrator</div>
+              <div class="per">80%</div>
+            </div>
+            <div class="box">
+              <div class="topic">SEO</div>
+              <div class="per">60%</div>
+            </div>
+            <div class="box">
+              <div class="topic">html&css</div>
+              <div class="per">70%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Services Section Start -->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>My Services</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">search engine optimizaton</div>
+            <p>
+              Boost your website's visibility and rank higher on search engines
+              with our expert SEO services. We optimize your content, improve
+              site structure, and use effective keywords to attract more organic
+              traffic. Grow your online presence and reach your target audience
+              effortlessly.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="topic">social media optimization</div>
+            <p>
+              Enhance your brand's presence on social media with our SMO
+              services. We create engaging content, manage your profiles, and
+              build a strong online community. Connect with your audience,
+              increase your followers, and boost your brand's visibility.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="topic">Search Engine Marketing</div>
+            <p>
+              Maximize your online visibility and drive targeted traffic with
+              our SEM services. We create and manage effective paid search
+              campaigns on platforms like Google Ads to ensure your business
+              reaches the right audience. Boost your sales and grow your brand
+              with our expert strategies.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fab fa-android"></i>
+            </div>
+            <div class="topic">Social Media Marketing</div>
+            <p>
+              Boost your brand's presence on social media with our SMM services.
+              We create and share engaging content, run targeted ad campaigns,
+              and manage your profiles to connect with your audience. Increase
+              your followers, drive traffic, and grow your brand online.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-camera-retro"></i>
+            </div>
+            <div class="topic">Email Marketing</div>
+            <p>
+              Reach your customers directly with our email marketing services.
+              We design personalized email campaigns that engage your audience,
+              promote your products, and drive conversions. Boost your sales and
+              build strong customer relationships with our effective strategies.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-tablet-alt"></i>
+            </div>
+            <div class="topic">graphics designing</div>
+            <p>
+              Make a lasting impression with our graphic design services. We
+              create stunning visuals, logos, brochures, and more to elevate
+              your brand's identity. Enhance your marketing materials and
+              captivate your audience with our creative designs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text">
+          <div class="topic">
+            Need Creative Solutions? Let's Make It Happen!
+          </div>
+          <p>
+            Transform your brand with our graphic design and digital marketing
+            services. We create captivating visuals and implement effective
+            marketing strategies to boost your online presence. Engage your
+            audience, drive traffic, and grow your business with our expert
+            solutions.
+          </p>
+          <div class="button" onclick="openGmail()">
+            <button>Let's Chat</button>>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
